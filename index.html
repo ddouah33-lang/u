@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Joyeux anniversaire Imane 🎂🌸</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="intro">
+  <div class="bloom">🌸</div>
+  <div class="horse hintro"></div>
+  <h3 class="l l1 ser">Une petite surprise t'attend... ✨</h3>
+  <h1 class="l name">IMANE</h1>
+  <p class="l l3 ser">Prépare-toi à entrer dans un monde créé spécialement pour toi... 🌸</p>
+  <button class="btn l l5" id="enter">Entrer ✨</button>
+</div>
+<div id="hud" class="glass" hidden>⭐ Étoiles trouvées : <span id="cnt">0</span> / 19</div>
+<button id="music" class="glass" aria-label="Musique">🎵 Musique</button>
+<div id="flash"></div>
+
+<main id="main" hidden>
+
+<section id="hero">
+  <span class="cloud" style="top:8%;left:6%">☁️</span><span class="cloud" style="top:16%;right:8%;animation-delay:-3s">☁️</span>
+  <span class="castle">🏰</span>
+  <div class="horse bob big"></div>
+  <div class="mini" id="mini"></div>
+  <h1>JOYEUX ANNIVERSAIRE IMANE ! 🎂🌸</h1>
+  <h3 class="ser">Aujourd'hui, tu fêtes tes 19 ans !</h3>
+  <p class="date">01 OCTOBRE 2026</p>
+  <p class="ser">Une nouvelle année, une nouvelle aventure, de nouveaux souvenirs à créer. ✨</p>
+  <a class="btn" href="#letter">Découvrir la surprise 🎁</a>
+</section>
+
+<section id="letter">
+  <h2>Un petit message pour toi, Imane 💌</h2>
+  <button class="btn" id="env">💌 Ouvrir la carte</button>
+  <article class="card" id="card">
+    <p><b>Chère Imane,</b></p>
+    <p>Aujourd'hui est une journée un peu spéciale, car tu fêtes tes 19 ans ! 🎂✨</p>
+    <p>19 années de souvenirs, de sourires, de découvertes et de moments qui ont construit la personne que tu es aujourd'hui.</p>
+    <p>Je te souhaite une magnifique nouvelle année remplie de belles surprises, de réussite, de moments inoubliables et de rêves qui deviennent réalité. 🌸</p>
+    <p>Que tes 19 ans t'apportent beaucoup de joie, de belles rencontres, de nouvelles aventures et énormément de raisons de sourire.</p>
+    <p>Continue d'avancer, de rêver grand et de croire en tes projets. ✨</p>
+    <p>Profite de chaque instant, crée de nouveaux souvenirs et garde toujours cette petite étincelle qui te rend unique. 🌷</p>
+    <p>Aujourd'hui, c'est TA journée. Alors profite, souris, fais un vœu et souffle tes 19 bougies ! 🎂🎀</p>
+    <p><b>Joyeux 19e anniversaire, Imane ! 🩷</b></p>
+    <p>Que cette nouvelle année de ta vie soit magnifique. ✨🐴🌸</p>
+    <p><b>01.10.2026 — Une nouvelle aventure commence.</b></p>
+    <h3 class="ser">Avec toutes mes félicitations pour tes 19 ans 🎀✨</h3>
+  </article>
+</section>
+
+<section id="poppy">
+  <h1>Ton petit compagnon magique 🐴🎀</h1>
+  <div class="bubble glass" id="say">Coucou Imane ! 🌸<br><small>Je suis ici pour t'accompagner pendant ta journée spéciale !</small></div>
+  <div class="stage"><div class="horse" id="pop"></div></div>
+  <div class="row">
+    <button class="btn" data-a="tour">🎀 Fais-moi un tour</button>
+    <button class="btn" data-a="flowers">🌸 Fais apparaître les fleurs</button>
+    <button class="btn" data-a="sky">⭐ Fais briller le ciel</button>
+    <button class="btn" data-a="cake">🎂 Où est mon gâteau ?</button>
+  </div>
+</section>
+
+<section id="giftS">
+  <h2>Une surprise pour la reine de la journée 👑</h2>
+  <div class="gift" id="gift"><div class="ray"></div><div class="lid"></div><div class="box"></div></div>
+  <button class="btn" id="open">Ouvrir 🎁</button>
+  <div id="giftMsg" class="reveal">
+    <div class="horse small" id="gh"></div>
+    <h1>SURPRISE ! 🎉</h1>
+    <h3 class="ser">Imane fête ses 19 ans aujourd'hui !</h3>
+  </div>
+</section>
+
+<section id="cake">
+  <p class="ser">Allume les 19 bougies une par une... 🕯️</p>
+  <h2><span id="lit">0</span> / 19</h2>
+  <div class="cake">
+    <div class="t1"><div class="candles" id="candles"></div></div>
+    <div class="t2"></div><div class="t3"></div><div class="plate"></div>
+  </div>
+  <div id="cakeMsg" class="reveal">
+    <div class="horse small" id="ch"></div>
+    <h1>19 BOUGIES ! 🎂✨</h1>
+    <h3 class="ser">Maintenant, fais un vœu... 🌙</h3>
+  </div>
+</section>
+
+<section id="wish">
+  <div class="moon"></div>
+  <h1>Fais un vœu, Imane... 🌙✨</h1>
+  <div class="horse small" id="wishHorse"></div>
+  <button class="btn" id="wishBtn">Faire mon vœu</button>
+  <h3 id="wishMsg" class="ser reveal">Que ton vœu accompagne cette nouvelle année et qu'il t'apporte de belles surprises. ✨</h3>
+</section>
+
+<section id="garden">
+  <h1>19 années, 19 petites fleurs 🌷</h1>
+  <p>Touche une fleur pour l'ouvrir.</p>
+  <div class="g19" id="g19"></div>
+  <h3 id="phrase" class="ser"></h3>
+</section>
+
+
+
+<section id="game">
+  <h1>Peux-tu trouver les 19 étoiles ? ⭐</h1>
+  <div class="horse small bob"></div>
+  <p>Elles sont cachées dans toutes les sections : cherche celles qui scintillent doucement !</p>
+  <h2>Étoiles trouvées : <span id="cnt2">0</span> / 19</h2>
+  <p id="gameMsg" class="ser">🔒 Une surprise finale se débloque à 19 / 19.</p>
+</section>
+
+<div id="locked" hidden>
+<section id="throne" class="sc">
+  <div class="scene"><div class="throne"><i></i><b></b></div><div class="horse small"></div></div>
+  <h1>LA REINE DE LA JOURNÉE 👑</h1>
+  <div class="crownd">👑</div>
+  <h1 class="shine big2">IMANE</h1>
+  <h3 class="ser">19 ans aujourd'hui ! 🎂✨</h3>
+</section>
+
+<section id="finale" class="sc">
+  <div class="skyst" id="skyst"></div><span class="fmoon">🌙</span><div class="sun"></div>
+  <div class="mt"></div><div class="mt m2"></div>
+  <h1 class="f" style="--d:.5s">Joyeux 19e anniversaire, Imane ! 🎂🌸</h1>
+  <h3 class="f ser" style="--d:3s">Je te souhaite une année remplie de bonheur, de réussite, de découvertes, de beaux souvenirs et de magnifiques aventures.</h3>
+  <h3 class="f ser" style="--d:6s">Que chacun de tes projets avance un peu plus, que tes rêves deviennent de plus en plus grands et que tu aies toujours une raison de sourire. ✨</h3>
+  <h1 class="f" style="--d:9s">PROFITE DE TES 19 ANS ! 🎉🎀</h1>
+  <h2 class="f" style="--d:11s">01 • 10 • 2026</h2>
+  <h3 class="f ser" style="--d:12.5s">Une nouvelle aventure commence... 🐴🌸✨</h3>
+  <div class="field"><div class="horse walk2"></div><div class="fl-row">🌷🌸🌼🌺🌷🌸🌼🌺🌷🌸🌼🌺</div></div>
+</section>
+</div>
+</main>
+
+<div id="toast"></div>
+<div id="secret" hidden><div class="glass">
+  <h1>BRAVO IMANE ! 🎉⭐</h1>
+  <div class="horse small"></div>
+  <p class="ser">Tu as trouvé toutes les étoiles ! Voici ta surprise finale... 👀</p>
+  <button class="btn" id="unlock">Découvrir 👑</button>
+</div></div>
+<script src="script.js"></script>
+</body>
+</html>
